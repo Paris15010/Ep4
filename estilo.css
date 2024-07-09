@@ -1,0 +1,25 @@
+body{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide img{
+    height: 65vh;
+}
+
+@font-face {
+    font-family: piola;
+    src: url(fonts/RobotoMono-Italic.ttf) format("truetype");
+}
+.text-fonts{
+    font-family: 'piola';
+}
+
+#coment{
+    resize: none;
+}
+
+.end img{
+    height: 60vh;
+}
